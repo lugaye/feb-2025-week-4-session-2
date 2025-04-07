@@ -4,3 +4,9 @@
     margin: 0 auto;
     background-color: aqua;
 }
+
+img {
+    width: 100%;
+    height: auto;
+}
+
