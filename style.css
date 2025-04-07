@@ -21,3 +21,22 @@ img {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 }
+
+/* Flexible LAyout */
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightblue;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.item {
+    background-color: grey;
+    padding: 20px;
+    margin: 10px;
+    flex: 1; /* This will make the items flexible */
+}
