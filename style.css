@@ -1,0 +1,6 @@
+/* fluid layout */
+.div-container {
+    width: 60%;
+    margin: 0 auto;
+    background-color: aqua;
+}
