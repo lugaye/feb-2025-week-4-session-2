@@ -56,3 +56,13 @@ img {
 .grid-item3{ grid-area: main; background-color: lightgoldenrodyellow;}
 .grid-item4{ grid-area: right; background-color: lightgreen;}
 .grid-item5{ grid-area: footer; background-color: lightsalmon;}
+
+@media (max-width: 600px){
+    .grid-container {
+        grid-template-areas: 'header'
+        'menu'
+        'main'
+        'right'
+        'footer';
+    }
+}
